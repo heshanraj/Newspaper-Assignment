@@ -1,6 +1,4 @@
-# INF_SS2024_ProgrammingII
-Accompanying Repository for the course materials in Progamming II Lecture, Summer term 2024.
-
+# Assignment 1
 ## Deadline: <span style="color:red;">14.04.2024, 23:00</span>
 
 --- 
