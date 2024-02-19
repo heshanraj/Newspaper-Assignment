@@ -39,3 +39,28 @@ dog3.describe()
 
 def describeDog(dog_dict):
     print(dog_dict["name"], dog_dict["color"], dog_dict["height"])
+
+
+""" Exercise:
+
+Write a class "Car" with a constructor for the parameters
+- make (e.g. Audi)
+- age (e.g. 20 for 20 years)
+
+and a method "describe()" that prints this information
+"""
+
+class Car:
+
+    def __init__(self, make, age):
+        self.make = make
+        self.age = age
+
+    def describe(self):
+        print(self.make, self.age)
+
+car1 = Car("VW", 10)
+print(car1.describe())
+
+
+
