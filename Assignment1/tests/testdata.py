@@ -1,5 +1,5 @@
-from src.model.agency import Agency
-from src.model.newspaper import Newspaper
+from ..src.model.agency import Agency
+from ..src.model.newspaper import Newspaper
 
 def create_newspapers(agency: Agency):
     paper1 = Newspaper(paper_id=100, name="The New York Times", frequency=7, price=13.14)

@@ -1,8 +1,8 @@
 from flask import jsonify
 from flask_restx import Namespace, reqparse, Resource, fields
 
-from src.model.agency import Agency
-from src.model.newspaper import Newspaper
+from ..model.agency import Agency
+from ..model.newspaper import Newspaper
 
 newspaper_ns = Namespace("newspaper", description="Newspaper related operations")
 

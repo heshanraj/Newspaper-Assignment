@@ -1,6 +1,6 @@
 import pytest
 
-from src.model.newspaper import Newspaper
+from ...src.model.newspaper import Newspaper
 from ..fixtures import app, client, agency
 
 

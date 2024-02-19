@@ -2,7 +2,7 @@ from typing import List
 
 from flask_restx import Model
 
-from src.model.issue import Issue
+from .issue import Issue
 
 
 class Newspaper(object):

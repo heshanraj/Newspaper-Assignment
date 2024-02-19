@@ -3,7 +3,7 @@ from flask_restx import Api
 
 from .api.newspaperNS import newspaper_ns
 
-from src.model.agency import Agency
+from .model.agency import Agency
 
 agency = Agency()
 

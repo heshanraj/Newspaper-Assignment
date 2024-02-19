@@ -1,6 +1,6 @@
 from typing import List, Union, Optional
 
-from src.model.newspaper import Newspaper
+from .newspaper import Newspaper
 
 
 class Agency(object):
