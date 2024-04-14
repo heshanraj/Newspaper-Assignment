@@ -18,6 +18,7 @@ def client(app):
 
 @pytest.fixture()
 def agency(app):
+    Agency.remove_instance()
     agency = Agency.get_instance()
     populate(agency)
     yield agency
